@@ -1,0 +1,423 @@
+#header-section{
+    background: purple;
+    min-height: 595px;
+}
+.navbar{
+    border: 0px solid transparent;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 50px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgb(95, 2, 95);
+    border-radius: 8px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4smoz
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.header-content{
+
+color: #fff;
+
+text-align: center;
+
+margin-top: 135px;
+
+margin-bottom: 135px;
+}
+
+.header-content h2{
+    
+font-size: 40px;
+    
+margin: 0;
+    
+margin-bottom: 60px;
+}
+
+.header-content .btn-custom{
+    
+width: 290px;
+    
+height: 65px;
+    
+font-size: 18px;
+    
+background: #eb7d4b;
+    
+border: none;
+    
+text-transform: uppercase;
+}
+
+
+.service{
+    background: #17c2a4;
+    min-height: 745px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.header{}
+
+.header .border{
+    width: 90px;
+    height: 4px;
+    background-color: #14a58c;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 115px;
+}
+
+.header p{
+    font-size: 18px;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.service-item{}
+
+.service-item img{}
+
+.service-item h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.service-item p{}
+
+
+.team{
+    background: #e7f1f8;
+    min-height: 795px;
+    text-align: center;
+    color: #3c4761;
+
+}
+
+.team .border{
+    width: 90px;
+    height: 4px;
+    background-color: #c8d9e5;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.team .header{}
+
+.team .header h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 115px;
+}
+
+.team .header p{
+    font-size: 18px;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+
+.team-item{}
+
+.team-item h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.team-item a{text-decoration: none;text-transform: capitalize;}
+
+.team-item p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social-link{}
+
+.link{
+    margin-bottom: 60px;
+}
+
+.link li{}
+
+.link li a{}
+
+.link li i{
+    width: 30px;
+    height: 30px;
+    background: #ddd1df;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.skills{
+    min-height: 655px;
+    background: #fff;
+    text-align: center;
+}
+
+.skills-header{}
+
+.skills-header .border{
+     width: 90px;
+    height: 4px;
+    background-color: #c8d9e5;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-header h2{
+      font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 115px;
+}
+
+.skills-header p{
+    font-size: 18px;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+
+.skill-img{}
+
+.skill-img img{
+    position: relative;
+}
+
+.ratio-title{
+    text-transform: uppercase;
+}
+
+.sill-ratio{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.portfolio{
+     min-height: 1200px;
+    background: #ffdd99;
+    text-align: center;
+}
+
+.portfoli-header{}
+
+.portfoli-header h2{
+       font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 115px;
+}
+
+.portfoli-header p{
+    font-size: 18px;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+
+.portfoli-header .border{
+     width: 90px;
+    height: 4px;
+    background-color: #e5c37f;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio-menu{}
+
+.menu{
+    margin-bottom: 30px;
+}
+
+.menu li{}
+
+.menu li a{
+    background: #e5c37f;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: #5f5c5c;
+    text-decoration: none;
+}
+
+
+.menu li a:hover{
+    background: #fff;
+    
+}
+
+.port-title{}
+
+.port-title img{}
+
+.port-title p{
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+.portfolio .btn-custom{
+    width: 290px;
+    height: 65px;
+    font-size: 18px;
+    background: #17c2a4;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.about-us{
+    
+    background: #d74680;
+    color: #fff;
+}
+
+.about-us .border{
+     width: 90px;
+    height: 4px;
+    background-color: #b73c68;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-header{
+     font-size: 18px;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+
+.about-header h2{
+       font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 115px;
+    text-align: center;
+}
+
+.about-header p{
+     font-size: 18px;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about-content{
+    text-align: left;
+}
+
+.about-us h4{
+    text-transform: uppercase;
+}
+
+.about-us a{
+    color: #fcd597;
+    text-decoration: none;
+}
+
+.about-box{
+    margin-bottom: 80px;
+}
+
+.touch{
+    background-color: #3661dc;
+    text-align: center;
+    color: #fff
+}
+
+.touch-header .border{
+      width: 90px;
+    height: 4px;
+    background-color: #273171;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.touch-header h2{
+     font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 115px;
+    text-align: center;
+}
+
+
+.touch-header p{
+      font-size: 18px;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.touch .btn-custom{ width: 290px;
+    height: 65px;
+    font-size: 18px;
+    background: #30bae7;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 60px;}
+
+.form-control {
+    background-color: #273171;
+
+    border: 1px solid rgba(204, 204, 204, 0);
+
+}
+
+.footer{
+    background-color: #344b8e;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-link li a{
+    color: #fff;
+    margin: 0;
+}
